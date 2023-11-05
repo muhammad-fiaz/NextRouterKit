@@ -1,4 +1,4 @@
-ame: "publish npm"
+name: "publish npm"
 
 on: push
 
