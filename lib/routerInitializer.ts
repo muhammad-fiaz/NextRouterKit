@@ -15,7 +15,6 @@ const processRouteConfig = (config: RouteConfig, currentPath: string = ''): void
             // Handle leaf nodes (actual routes)
             console.log(`Add route: ${newPath} -> ${config[key]}`);
             // Perform actions based on the route path and target
-            // You might want to write a Next.js routing configuration here.
         } else {
             // Recursively process nested configurations
             processRouteConfig(config[key] as RouteConfig, newPath);
@@ -39,7 +38,6 @@ const initializeRoutesFromConfig = (config: RouterConfig): void => {
             if (!excludes.some((excludePattern) => relativePath.match(excludePattern))) {
                 console.log(`Add route from config: ${relativePath}`);
                 // Perform actions based on the route path and target
-                // You might want to write a Next.js routing configuration here.
             }
         }
     }
@@ -50,7 +48,7 @@ export const initializeRoutes = (): void => {
 
     if (!configFile) {
         initializeConfigFile();
-        console.log('Default configuration file created. Please customize it in nextrouter.config.json.');
+        console.log('Default configuration file created. Please customize it in nextrouterkit.config.json.');
         return;
     }
 
