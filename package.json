@@ -1,6 +1,6 @@
 {
   "name": "nextrouterkit",
-  "version": "0.0.0",
+  "version": "0.0.0-beta2",
   "description": "A Next Level Router For Your Web Apps",
   "main": "index.ts",
   "scripts": {
