@@ -1,0 +1,32 @@
+{
+  "name": "nextrouter",
+  "version": "0.0.0",
+  "description": "A Next Level Router For Your Web Apps",
+  "main": "index.ts",
+  "scripts": {
+    "init": "node index.ts init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammad-fiaz/NextRouter.git"
+  },
+  "keywords": [
+    "nextrouter",
+    "router",
+    "next"
+  ],
+  "author": "muhammad-fiaz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/muhammad-fiaz/NextRouter/issues"
+  },
+  "homepage": "https://github.com/muhammad-fiaz/NextRouter#readme",
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "fs": "^0.0.1-security",
+    "glob": "^10.3.10",
+    "path": "^0.12.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
