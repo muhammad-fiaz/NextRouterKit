@@ -1,5 +1,5 @@
 {
-  "name": "nextrouter",
+  "name": "nextrouterkit",
   "version": "0.0.0",
   "description": "A Next Level Router For Your Web Apps",
   "main": "index.ts",
@@ -13,7 +13,10 @@
   "keywords": [
     "nextrouter",
     "router",
-    "next"
+    "next",
+    "nextroutekit",
+    "nextrouterkit",
+    "nextroute"
   ],
   "author": "muhammad-fiaz",
   "license": "MIT",
