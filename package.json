@@ -9,7 +9,7 @@
     "build": "tsc"
   },
   "bin": {
-    "nextrouterkit": "bin/nextrouterkit.js"
+    "nextrouterkit": "bin/Cli.js"
   },
   "repository": {
     "type": "git",
