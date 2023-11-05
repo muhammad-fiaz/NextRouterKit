@@ -4,11 +4,13 @@
   "description": "A Next Level Router For Your Web Apps",
   "main": "index.ts",
   "scripts": {
-    "init": "node index.ts init"
+    "init": "ts-node index.ts init",
+    "lint": "eslint ."
+
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/muhammad-fiaz/NextRouter.git"
+    "url": "git+https://github.com/muhammad-fiaz/NextRouterKit.git"
   },
   "keywords": [
     "nextrouter",
@@ -21,13 +23,17 @@
   "author": "muhammad-fiaz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/muhammad-fiaz/NextRouter/issues"
+    "url": "https://github.com/muhammad-fiaz/NextRouterKit/issues"
   },
-  "homepage": "https://github.com/muhammad-fiaz/NextRouter#readme",
+  "homepage": "https://github.com/muhammad-fiaz/NextRouterKit#readme",
   "devDependencies": {
     "@types/node": "^20.8.10",
+    "@typescript-eslint/eslint-plugin": "^6.9.1",
+    "@typescript-eslint/parser": "^6.9.1",
+    "eslint": "^8.53.0",
     "fs": "^0.0.1-security",
     "glob": "^10.3.10",
+    "jest": "^29.7.0",
     "path": "^0.12.7",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
