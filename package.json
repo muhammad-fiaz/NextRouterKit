@@ -1,6 +1,6 @@
 {
   "name": "nextrouterkit",
-  "version": "0.0.0-beta4",
+  "version": "0.0.0-beta5",
   "description": "A Next Level Router For Your Web Apps",
   "main": "index.js",
   "scripts": {
