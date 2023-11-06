@@ -1,8 +1,0 @@
-{
-  "router": {
-    "includes": [
-      "./**/*.{html,htm}"
-    ],
-    "excludes": []
-  }
-}
