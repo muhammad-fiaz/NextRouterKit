@@ -15,7 +15,7 @@ const createConfigFile = () => {
         // Create a basic configuration file
         const defaultConfig = {
             router: {
-                includes: ["./**/*.{ts,js,tsx,jsx}"],
+                includes: ["./**/*.{html,htm}"],
                 excludes: [],
             },
         };

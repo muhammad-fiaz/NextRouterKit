@@ -1,12 +1,14 @@
 {
   "name": "nextrouterkit",
-  "version": "0.0.0-beta3",
+  "version": "0.0.0-beta4",
   "description": "A Next Level Router For Your Web Apps",
   "main": "index.js",
   "scripts": {
     "init": "ts-node index.js init",
     "lint": "eslint .",
-    "build": "tsc"
+    "build": "tsc",
+    "start": "node index.js",
+    "dev": "node index.js"
   },
   "bin": {
     "nextrouterkit": "bin/Cli.js"
@@ -43,7 +45,6 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "chokidar": "^3.5.3",
     "express": "^4.18.2",
     "readline-sync": "^1.4.10"
   }
