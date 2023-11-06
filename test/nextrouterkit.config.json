@@ -1,8 +1,0 @@
-{
-  "router": {
-    "includes": [
-      "./**/*.{ts,js,tsx,jsx}"
-    ],
-    "excludes": []
-  }
-}
