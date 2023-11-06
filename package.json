@@ -1,6 +1,6 @@
 {
   "name": "nextrouterkit",
-  "version": "0.0.0-beta6",
+  "version": "0.0.0-beta8",
   "description": "A Next Level Router For Your Web Apps",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,6 @@
     "start": "node index.js",
     "dev": "node index.js"
   },
-  "type": "module",
 
   "bin": {
     "nextrouterkit": "bin/Cli.js"
