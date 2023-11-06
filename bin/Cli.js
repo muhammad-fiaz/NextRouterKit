@@ -16,7 +16,7 @@ const createConfigFile = () => {
         const defaultConfig = {
             router: {
                 includes: ["./**/*.{html,htm}"],
-                excludes: [],
+                excludes: ["node_modules/**/*"],
             },
         };
 
