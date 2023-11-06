@@ -1,6 +1,6 @@
 {
   "name": "nextrouterkit",
-  "version": "0.0.0-beta5",
+  "version": "0.0.0-beta6",
   "description": "A Next Level Router For Your Web Apps",
   "main": "index.js",
   "scripts": {
@@ -8,10 +8,10 @@
     "lint": "eslint .",
     "build": "tsc",
     "start": "node index.js",
-    "dev": "node index.js"
+    "dev": "node index.js",
+    "postinstall": "node ./node_modules/nextrouterkit/index.js"
   },
   "bin": {
-    "run": "index.js",
     "nextrouterkit": "bin/Cli.js"
   },
   "repository": {
